@@ -3,7 +3,7 @@ package ca.mcmaster.magarveylab.enums.domains;
 import ca.mcmaster.magarveylab.enums.DomainFamilies;
 
 public interface DomainType {
-
+	
 	/**
 	 * Get the abbreviation of this gene, for biosynthetic assembly graphs. 
 	 * @return		abbreviation of this gene  

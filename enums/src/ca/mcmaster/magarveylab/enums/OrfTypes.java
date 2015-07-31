@@ -18,6 +18,7 @@ public enum OrfTypes {
 	BETA_LACTAM,
 	PREREQUISITE,
 	AMINOGLYCOSIDE,
+	NUCLEOSIDE,
 	NULL
 	;
 	
@@ -29,4 +30,5 @@ public enum OrfTypes {
 		String initial = super.toString();
 		return initial.toLowerCase();
 	}
+	
 }

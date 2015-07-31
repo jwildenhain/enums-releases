@@ -1,6 +1,7 @@
 package ca.mcmaster.magarveylab.enums;
 
 import ca.mcmaster.magarveylab.enums.domains.DomainType;
+import ca.mcmaster.magarveylab.enums.domains.NucleosideDomains;
 import ca.mcmaster.magarveylab.enums.domains.PrerequisiteDomains;
 import ca.mcmaster.magarveylab.enums.domains.TypeIIPolyketideDomains;
 import ca.mcmaster.magarveylab.enums.substrates.AcyltransferaseSubstrates;
@@ -38,6 +39,10 @@ public enum SubstratePrerequisites {
 	_3_HYDROXYANTHRANILATE(AdenylationSubstrates._3_HYDROXYANTHRANILATE, new DomainType[] { 
 			PrerequisiteDomains.ARYL_FORMAMIDASE,
 			PrerequisiteDomains.TRYPTOPHAN_DIOXYGENASE }),
+	AMINOCAPROLACTAM(AdenylationSubstrates.AMINOCAPROLACTAM, new DomainType[] { 
+			NucleosideDomains.CapW }),
+	HISTIDINE_3(AdenylationSubstrates.HISTIDINE_3, new DomainType[] { 
+			NucleosideDomains.NikQ }),
 	;
 	
 	private SubstrateType substrate;

@@ -10,5 +10,6 @@ public enum ClusterFamilies {
 	ENEDIYNE,
 	TYPE_II_POLYKETIDE,
 	AMINOGLYCOSIDE,
+	NUCLEOSIDE,
 	;
 }

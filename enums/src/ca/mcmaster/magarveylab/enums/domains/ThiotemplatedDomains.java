@@ -6,6 +6,8 @@ import ca.mcmaster.magarveylab.enums.DomainFamilies;
  * Enum containing a list of all nonribosomal peptide or polyketide domains used in a Prism genome search.
  */
 public enum ThiotemplatedDomains implements DomainType {
+	NULL("Error: could not identify domain type!", "", "NULL", 0),
+	
 	ADENYLATION("Adenylation", "adenylation.hmm", "A", 108.4d),
 	ACYL_ADENYLATING("Acyl adenylating enzyme", "acyl_adenylating.hmm", "A", 163.2d),
 	ACYLTRANSFERASE("Acyltransferase", "acyltransferase.hmm", "AT", 65.2d),

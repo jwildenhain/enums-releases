@@ -36,7 +36,7 @@ public enum AminoglycosideDomains implements DomainType {
 	GenD1("GenD1.hmm", "GenD1-family radical SAM protein", "GenD1", 82.5d),
 	ImrA("ImrA.hmm", "ImrA-family 16s rRNA methyltransferase", "ImrA", 182.0d),
 	KanE("KanE.hmm", "KanE-family glycosyltransferase", "KanE", 570.0d),
-	LivW("LivW.hmm", "LivW-family Fe-S oxidoreductase", "LivW", 60.0d),
+	LivW("LivW.hmm", "LivW-family Fe-S oxidoreductase", "LivW", 80.0d),
 	NeoF("NeoF.hmm", "NeoF-family ribostamycin GlcNAc transferase", "NeoF", 500.0d),
 	ParK("ParK.hmm", "ParK-family extracellular phosphate phosphatase", "ParK", 705.0d),
 	TobZ("TobZ.hmm", "TobZ-family carbamoyltransferase", "TobZ", 660.0d),

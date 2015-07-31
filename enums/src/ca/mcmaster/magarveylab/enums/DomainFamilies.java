@@ -1,7 +1,8 @@
 package ca.mcmaster.magarveylab.enums;
 
 /**
- * Families of enzymatic domains that PRISM can search for. 
+ * Families of enzymatic domains that PRISM can search for.
+ * 
  * @author skinnider
  */
 public enum DomainFamilies {
@@ -14,5 +15,8 @@ public enum DomainFamilies {
 	PREREQUISITE,
 	TYPE_II_POLYKETIDE,
 	REGULATOR,
-	AMINOGLYCOSIDE;
+	AMINOGLYCOSIDE,
+	NUCLEOSIDE,
+	NULL,
+	;
 }
