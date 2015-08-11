@@ -7,11 +7,17 @@ package ca.mcmaster.magarveylab.enums.clusters;
  */
 public enum NucleosideClusterTypes implements ClusterType {
 
-	TUNICAMYCIN("Tunicamycin-family nucleoside"),
-	CAPURAMYCIN("Capuramycin-family nucleoside"),
+	URIDYL_PEPTIDE("uridyl peptide (pacidamycin-type) nucleoside"),
+	URIDYL_LIPOPEPTIDE("uridyl lipopeptide (liposidomycin-type) nucleoside"),
+	URIDYL_LIPOSACCHARIDE("uridyl liposaccharide (tunicamycin-type) nucleoside"),
+	URIDYL_GLYCOSYLPEPTIDE("uridyl glycosylpeptide (capuramycin-type) nucleoside"),
+	NIKKOMYCIN("nikkomycin-type nucleoside"),
+	POLYOXIN("polyoxin-type nucleoside"), 
+	BLASTICIDIN("blasticidin-type nucleoside"),
+	GOUGEROTIN("gougerotin-type nucleoside"),
 	
 	// default
-	NUCLEOSIDE("Nucleoside")
+	NUCLEOSIDE("nucleoside")
 	;
 	
 	private final String name;

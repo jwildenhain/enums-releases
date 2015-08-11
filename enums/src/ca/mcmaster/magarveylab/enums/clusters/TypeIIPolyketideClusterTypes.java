@@ -2,26 +2,18 @@ package ca.mcmaster.magarveylab.enums.clusters;
 
 public enum TypeIIPolyketideClusterTypes implements ClusterType {
 	
-	TETRACYCLINE("Tetracycline-type polyketide"),
-	ANTHRACYCLINE("Anthracycline-type polyketide"),
-	ANGUCYCLINE("Angucycline-type polyketide"),
-	AUREOLIC_ACID("Aureolic acid polyketide"),
-	TETRACENOMYCIN("Tetracenomycin-type polyketide"),
-	BENZOISOCHROMANEQUINONE("Benzoisochromanequinone polyketide"),
-	PENTANGULAR_POLYPHENOL("Pentangular polyphenol"),
-	PLURAMYCIN("Pluramycin-type polyketide"),
-	RESISTOMYCIN("Resistomycin-type polyketide"),
-	ENTEROCIN("Enterocin-type polyketide"),
-	OTHER("Other type II polyketide scaffold"),
+	TETRACYCLINE("tetracycline-type polyketide"),
+	ANTHRACYCLINE("anthracycline-type polyketide"),
+	ANGUCYCLINE("angucycline-type polyketide"),
+	AUREOLIC_ACID("aureolic acid polyketide"),
+	TETRACENOMYCIN("tetracenomycin-type polyketide"),
+	BENZOISOCHROMANEQUINONE("benzoisochromanequinone polyketide"),
+	PENTANGULAR_POLYPHENOL("pentangular polyphenol"),
+	PLURAMYCIN("pluramycin-type polyketide"),
+	RESISTOMYCIN("resistomycin-type polyketide"),
+	ENTEROCIN("enterocin-type polyketide"),
+	OTHER("other type II polyketide scaffold"),
 	;
-	
-	/*
-	 * Pradimicin
-	 * Pluramycins: pluramycin, altromycin, hedamycin 
-	 * Gilvocarcins
-	 * Jadomycins? 
-	 *  
-	 */
 	
 	private final String name;
 	

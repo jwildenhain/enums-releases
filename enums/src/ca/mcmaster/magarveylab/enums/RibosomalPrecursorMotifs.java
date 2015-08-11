@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public enum RibosomalPrecursorMotifs {
+	
 	Sactipeptides_precursor("sactipeptides_precursor.hmm", RibosomalClusterTypes.SACTIPEPTIDE),
 	LAcP_1("LAcp_motif1.meme", RibosomalClusterTypes.LINEAR_AZOLE_CONTAINING),
 	LAcP_2("LAcp_motif2.meme", RibosomalClusterTypes.LINEAR_AZOLE_CONTAINING);

@@ -7,7 +7,7 @@ import ca.mcmaster.magarveylab.enums.domains.DeoxySugarDomains;
  * @author skinnider
  *
  */
-public enum DeoxySugars {
+public enum DeoxySugars implements Structure {
 	
 	L_ACULOSE("L-aculose", "CC1OC(I)C=CC1=O", new DeoxySugarDomains[] { DeoxySugarDomains._4_6_DEHYDRATASE, 
 			DeoxySugarDomains._2_3_DEHYDRATASE, DeoxySugarDomains._3_4_DEHYDRATASE, DeoxySugarDomains._3_KETOREDUCTASE, 
@@ -59,7 +59,7 @@ public enum DeoxySugars {
 			DeoxySugarDomains._4_AMINOTRANSFERASE, DeoxySugarDomains.N_N_DIMETHYLTRANSFERASE }),//achiral
 	L_ACTINOSAMINE("L-actinosamine", "COC1C(OC(CC1N)I)C", new DeoxySugarDomains[] { DeoxySugarDomains._4_6_DEHYDRATASE, 
 			DeoxySugarDomains._2_3_DEHYDRATASE }),
-	L_VANCOSAMINE("L-vancosamine", "OC1OC(C)C(I)C(N)(C)C1", new DeoxySugarDomains[] { 
+	L_VANCOSAMINE("L-vancosamine", "IC1OC(C)C(O)C(C)(N)C1", new DeoxySugarDomains[] { 
 			DeoxySugarDomains._4_6_DEHYDRATASE, DeoxySugarDomains._2_3_DEHYDRATASE, DeoxySugarDomains._4_KETOREDUCTASE, 
 			DeoxySugarDomains.EPIMERASE, DeoxySugarDomains._3_AMINOTRANSFERASE, DeoxySugarDomains.C_METHYLTRANSFERASE }),
 	L_VICENISAMINE("L-vicenisamine", "CNC1C(O)CC(I)OC1C", new DeoxySugarDomains[] { DeoxySugarDomains._4_6_DEHYDRATASE, 
@@ -74,7 +74,7 @@ public enum DeoxySugars {
 	L_OLEANDROSE("L-oleandrose", "COC1CC(I)OC(C)[C@@H]1O", new DeoxySugarDomains[] { 
 			DeoxySugarDomains._4_6_DEHYDRATASE, DeoxySugarDomains._2_3_DEHYDRATASE, DeoxySugarDomains._3_KETOREDUCTASE, 
 			DeoxySugarDomains._4_KETOREDUCTASE, DeoxySugarDomains.EPIMERASE, DeoxySugarDomains.O_METHYLTRANSFERASE }),
-	OLIVOMOSE("Olivomose", "COC1C(CC(OC1C)O)I", new DeoxySugarDomains[] { DeoxySugarDomains._4_6_DEHYDRATASE, 
+	OLIVOMOSE("Olivomose", "IC1CC(O)C(OC)C(C)O1", new DeoxySugarDomains[] { DeoxySugarDomains._4_6_DEHYDRATASE, 
 			DeoxySugarDomains._2_3_DEHYDRATASE, DeoxySugarDomains._3_KETOREDUCTASE, DeoxySugarDomains._4_KETOREDUCTASE, 
 			DeoxySugarDomains.O_METHYLTRANSFERASE }),
 	D_MYCOSAMINE("D-mycosamine", "OC1C(N)C(O)C(I)OC1C", new DeoxySugarDomains[] { 
@@ -83,8 +83,8 @@ public enum DeoxySugars {
 	_4_DEOXY_4_THIO_D_DIGITOXOSE("4-deoxy-4-thio-D-digitoxose ", "CC1OC(I)CC(O)C1S", new DeoxySugarDomains[] { 
 			DeoxySugarDomains._4_6_DEHYDRATASE, DeoxySugarDomains._2_3_DEHYDRATASE, DeoxySugarDomains._3_KETOREDUCTASE,
 			DeoxySugarDomains.EPIMERASE, DeoxySugarDomains.THIOSUGAR_SYNTHASE }),
-	D_FUCOFURANOSE("D-fucofuranose", "CC(O)C1C(O)C(O)C(I)O1", new DeoxySugarDomains[] { 
-			DeoxySugarDomains._4_6_DEHYDRATASE, DeoxySugarDomains._4_KETOREDUCTASE }),
+//	D_FUCOFURANOSE("D-fucofuranose", "CC(O)C1C(O)C(O)C(I)O1", new DeoxySugarDomains[] { 
+//			DeoxySugarDomains._4_6_DEHYDRATASE, DeoxySugarDomains._4_KETOREDUCTASE }),
 	D_FUCOSE("D-fucose", "CC1OC(I)C(O)C(O)C1O", new DeoxySugarDomains[] { DeoxySugarDomains._4_6_DEHYDRATASE, 
 			DeoxySugarDomains._4_KETOREDUCTASE }),		
 	L_RHAMNOSE("L-rhamnose", "OC1C(O)C(O)C(I)OC1C", new DeoxySugarDomains[] { 

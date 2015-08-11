@@ -105,9 +105,9 @@ public enum RibosomalDomains implements DomainType {
 	TfxC("tfxC.hmm", "TfxC",  "Trifolitoxin nitroreductase", 50.0),
 	TpdI("TpdI.hmm", "CMT", "Thiazole C-methyltransferase", 50.0),
 	TpdJ1("TpdJ1.hmm", "P450", "Cytochrome P450 (phenylalanine &beta;-hydroxylation "
-			+ "or isoleucine epoxidation)", 400.0),
+			+ "or isoleucine epoxidation)", 450.0),
 	TpdJ2("TpdJ2.hmm", "P450", "Cytochrome P450 (phenylalanine &beta;-hydroxylation "
-			+ "or isoleucine epoxidation)", 400.0),
+			+ "or isoleucine epoxidation)", 450.0),
 	TpdL("TpdL.hmm", "CMT", "Thiazole C-methyltransferase", 50.0),
 	TpdM("TpdM.hmm", "OMT", "5-hydroxymethylthiazole O-methyltransferase", 130.0),
 	TpdT("TpdT.hmm", "NMT", "Asparagine N-methyltransferase", 50.0),

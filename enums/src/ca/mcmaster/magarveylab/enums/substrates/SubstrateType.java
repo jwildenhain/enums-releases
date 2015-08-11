@@ -1,12 +1,14 @@
 package ca.mcmaster.magarveylab.enums.substrates;
 
+import ca.mcmaster.magarveylab.enums.Structure;
+
 /**
  * A substrate activated by a biosynthetic domain.
  * 
  * @author skinnider
  *
  */
-public interface SubstrateType {
+public interface SubstrateType extends Structure {
 
 	/**
 	 * Get the name of the hidden Markov model (.hmm) file associated with this
