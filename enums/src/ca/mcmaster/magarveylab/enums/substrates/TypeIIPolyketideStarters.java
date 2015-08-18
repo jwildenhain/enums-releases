@@ -1,12 +1,14 @@
 package ca.mcmaster.magarveylab.enums.substrates;
 
+import ca.mcmaster.magarveylab.enums.Structure;
+
 /**
  * Starter units for type II polyketide biosynthesis.
  * 
  * @author skinnider
  *
  */
-public enum TypeIIPolyketideStarters {
+public enum TypeIIPolyketideStarters implements Structure {
 
 	ACETATE("Acetate", "CC(I)=O"),
 	MALONAMATE("Malonamate", "IC(CC(N)=O)=O"),

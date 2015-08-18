@@ -5,9 +5,15 @@ import ca.mcmaster.magarveylab.enums.clusters.RibosomalClusterTypes;
 import java.util.List;
 import java.util.ArrayList;
 
-//enums for the motifs generated in MEME for assistance in identifying the leader peptide cleavage points
-
+/**
+ * Enum for the motifs generated in MEME for assistance in identifying the
+ * leader peptide cleavage points.
+ * 
+ * @author prees, robynedgar
+ *
+ */
 public enum RibosomalPrecursorMotifs {
+
 	//motifs for identifying leader peptides within the precursor
 	BotA_leader("BotA_leader_motif.txt", RibosomalClusterTypes.BOTTROMYCIN),
 	Bac_head2tail_nonleader("non_leader_bac_head-to-tail.txt", RibosomalClusterTypes.BACTERIAL_HEAD_TO_TAIL_CYCLIZED),
