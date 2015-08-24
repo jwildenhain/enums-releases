@@ -1,4 +1,4 @@
-package ca.mcmaster.magarveylab.prism.enums;
+package ca.mcmaster.magarveylab.enums;
 
 import ca.mcmaster.magarveylab.enums.clusters.RibosomalClusterTypes;
 
