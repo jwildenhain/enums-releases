@@ -10,10 +10,6 @@ import ca.mcmaster.magarveylab.enums.DomainFamilies;
  */
 public enum AminoglycosideDomains implements DomainType {
 
-//	SpeB("SpeB.hmm", "SpeB-family dehydrogenase", "SpeB", 110.8d),
-//	INOSITOL_PHOSPHATE_MONOPHOSPHATASE("myo-inositol_1-phosphate_monophosphatase.hmm", 
-//			"Inositol phosphate monophosphatase", "IPM", 142.0d),
-
 	// 2-DOI-derived
 	LGln_2DOI_AT("LGln_2DOI_AT.hmm", "LGln 2DOI aminotransferase", "DOI AmT", 506.0d),
 	_2DOIA_dehydrogenase("2DOIA_dehydrogenase.hmm", "2DOIA dehydrogenase", "DOIA DH", 226.0d),

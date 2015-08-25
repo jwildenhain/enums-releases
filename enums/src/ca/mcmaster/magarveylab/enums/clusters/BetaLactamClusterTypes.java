@@ -2,12 +2,12 @@ package ca.mcmaster.magarveylab.enums.clusters;
 
 public enum BetaLactamClusterTypes implements ClusterType {
 
-	CARBAPENEM("Carbapenem"),
-	CLAVAM("Clavam"),
-	SULFAZECIN("Sulfazecin"),
-	TABTOXIN("Tabtoxin"),
-	PENICILLIN("Penicillin"),
-	CEPHALOSPORIN("Cephalosporin"),
+	CARBAPENEM("carbapenem"),
+	CLAVAM("clavam"),
+	SULFAZECIN("sulfazecin"),
+	TABTOXIN("tabtoxin"),
+	PENICILLIN("penicillin"),
+	CEPHALOSPORIN("cephalosporin"),
 	;
 	
 	private final String name;

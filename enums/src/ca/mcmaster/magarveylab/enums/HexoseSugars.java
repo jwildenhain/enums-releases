@@ -5,7 +5,7 @@ package ca.mcmaster.magarveylab.enums;
  * @author skinnider
  *
  */
-public enum HexoseSugars {
+public enum HexoseSugars implements Structure {
 	
 	GLUCOSE("Glucose", "OC[C@H]1OC([C@@H]([C@H]([C@@H]1O)O)O)I"),
 	GLCNAC("N-acetylglucosamine", "O=C(C)N[C@@H]1[C@H]([C@@H]([C@@H](CO)OC1I)O)O"),

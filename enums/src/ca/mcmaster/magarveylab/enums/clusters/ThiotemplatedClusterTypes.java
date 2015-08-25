@@ -4,10 +4,12 @@ package ca.mcmaster.magarveylab.enums.clusters;
  * Enum for all thiotemplated cluster subtypes.
  */
 public enum ThiotemplatedClusterTypes implements ClusterType {
-	PKS("Polyketide"),
-	NRPS("Nonribosomal peptide"), 
-	HYBRID("Hybrid nonribosomal peptide-polyketide"),
-	FUNGAL_TYPE_I("Iterative type I polyketide"),
+	
+	PKS("polyketide"),
+	NRPS("nonribosomal peptide"), 
+	ENEDIYNE_9_MEMBERED("enediyne (9-membered)"),
+	ENEDIYNE_10_MEMBERED("enediyne (10-membered)"),
+	FUNGAL_TYPE_I("iterative type I polyketide"),
 	NULL("");
 
 	private final String name;
