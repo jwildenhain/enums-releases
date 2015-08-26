@@ -79,7 +79,7 @@ public enum RegulatorDomains implements DomainType {
 	TarA("TarA","DNA transcription regulator - TetR","TarA.hmm",300),
 	ThnI("ThnI","Response regulator- LuxR-type","ThnI.hmm",750),
 	ThnU("ThnU","DNA transcription regulator (+) - BTAD-type (ccaR-like)","ThnU.hmm",450),
-	Tyl_type_Regulator("Tyl-type_Regulator","DNA transcription regulator (-) - GBL receptor ","Tyl-type_Regulator.hmm",110),
+	Tyl_type_Regulator("Tyl-type_Regulator","DNA transcription regulator (-) - GBL receptor ","Tyl_type_Regulator.hmm",110),
 	VmsT("VmsT","Response regulator- LuxR-type","VmsT.hmm",150),
 	
 	// round 2
