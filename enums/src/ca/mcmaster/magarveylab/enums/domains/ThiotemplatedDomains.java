@@ -29,14 +29,14 @@ public enum ThiotemplatedDomains implements DomainType {
 			"enediyne_PPTase.hmm", "PPTase", 100.0d),
 			
 	// iterative type I
-	PRODUCT_TEMPLATE_I("Product template, clade I (C2/C7 cyclization PKS)", /* "PT_I.hmm" */ "", "PT", 75.0),
-	PRODUCT_TEMPLATE_II("Product template, clade II (tetrahydroxynaphthalene synthase)", /* "PT_II.hmm" */ "", "PT", 75.0),
-	PRODUCT_TEMPLATE_III("Product template, clade III (C2/C7, C1/C10 cyclization)", /* "PT_III.hmm" */ "", "PT", 75.0),
-	PRODUCT_TEMPLATE_IV("Product template, clade IV (C4/C9, C2/C11 cyclization)", /* "PT_IV.hmm" */ "", "PT", 75.0),
-	PRODUCT_TEMPLATE_V("Product template, clade V (C6/C11, C4/C13 cyclization", /* "PT_V.hmm" */ "", "PT", 75.0),
-	SAT_C2("Starter unit-acyl carrier protein transacylase (C2)", /* "SAT_C2.hmm" */ "", "SAT", 50.0),
-	SAT_C6("Starter unit-acyl carrier protein transacylase (C6)", /* "SAT_C6.hmm" */ "", "SAT", 50.0),
-	CLAISEN_CYCLASE("Claisen cyclase", /* "Claisen_cyclase.hmm", */ "", "Cyc", 0.0),
+	PRODUCT_TEMPLATE_I("Product template, clade I (C2/C7 cyclization PKS)", "PT_I.hmm", "PT", 75.0),
+	PRODUCT_TEMPLATE_II("Product template, clade II (tetrahydroxynaphthalene synthase)", "PT_II.hmm", "PT", 200.0),
+	PRODUCT_TEMPLATE_III("Product template, clade III (C2/C7, C1/C10 cyclization)", "PT_III.hmm", "PT", 300.0),
+	PRODUCT_TEMPLATE_IV("Product template, clade IV (C4/C9, C2/C11 cyclization)", "PT_IV.hmm", "PT", 200.0),
+	PRODUCT_TEMPLATE_V("Product template, clade V (C6/C11, C4/C13 cyclization", "PT_V.hmm", "PT", 300.0),
+	SAT_C2("Starter unit-acyl carrier protein transacylase (C2)", "SAT_C2.hmm", "SAT", 40.0),
+	SAT_C6("Starter unit-acyl carrier protein transacylase (C6)", "SAT_C6.hmm", "SAT", 200.0),
+//	CLAISEN_CYCLASE("Claisen cyclase", "Claisen_cyclase.hmm", "Cyc", 0.0),
 	;
 	
 	private final String name;

@@ -32,6 +32,11 @@ public enum PrerequisiteDomains implements DomainType {
 	// 3-hydroxyanthranilate
 	TRYPTOPHAN_DIOXYGENASE("Tryptophan dioxygenase", "trp_dioxygenase.hmm", "SibP", 100.0d),
 	ARYL_FORMAMIDASE("Aryl formamidase", "aryl_formamidase.hmm", "SibK", 150.0d),
+	// homotyrosine (fungal)
+	ISOPROPYL_MALATE_SYNTHASE("2-isopropylmalate synthase", "HtyA.hmm", "HtyA", 0.0),
+	TRANSAMINASE("Transaminase", "HtyB.hmm", "HtyB", 0.0),
+	// pipecolic acid (fungal)
+	APS3("Pyrroline-5-carboxylate reductase", "Lys_to_pip.hmm", "Aps3", 0.0),
 	;
 
 	private final String name;
@@ -39,7 +44,8 @@ public enum PrerequisiteDomains implements DomainType {
 	private final String abbreviation;
 	private final double cutoff;
 
-	private PrerequisiteDomains(final String name, final String hmm, final String abbreviation, final double cutoff) {
+	private PrerequisiteDomains(final String name, final String hmm,
+			final String abbreviation, final double cutoff) {
 		this.name = name;
 		this.hmm = hmm;
 		this.abbreviation = abbreviation;

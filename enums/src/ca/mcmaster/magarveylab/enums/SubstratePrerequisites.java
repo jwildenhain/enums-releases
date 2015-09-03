@@ -43,6 +43,8 @@ public enum SubstratePrerequisites {
 			NucleosideDomains.CapW }),
 	HISTIDINE_3(AdenylationSubstrates.HISTIDINE_3, new DomainType[] { 
 			NucleosideDomains.NikQ }),
+	HOMOTYROSINE(AdenylationSubstrates.FUNGAL_HOMOTYROSINE, new DomainType[] { 
+			PrerequisiteDomains.ISOPROPYL_MALATE_SYNTHASE, PrerequisiteDomains.TRANSAMINASE }),
 	;
 	
 	private SubstrateType substrate;

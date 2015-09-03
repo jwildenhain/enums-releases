@@ -94,7 +94,7 @@ public enum ReactionPriorities {
 	 */
 	// disulfides 
 //	GLYCOCIN_DISULFIDE()
-	SACTIPEPTIDE_DISULFIDE(RibosomalDomains.SkfH, 2000),
+//	SACTIPEPTIDE_DISULFIDE(RibosomalDomains.SkfH, 2000),
 	
 	
 	// 
