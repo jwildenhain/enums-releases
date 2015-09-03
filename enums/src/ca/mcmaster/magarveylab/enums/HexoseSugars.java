@@ -7,10 +7,10 @@ package ca.mcmaster.magarveylab.enums;
  */
 public enum HexoseSugars implements Structure {
 	
-	GLUCOSE("Glucose", "OC[C@H]1OC([C@@H]([C@H]([C@@H]1O)O)O)I"),
-	GLCNAC("N-acetylglucosamine", "O=C(C)N[C@@H]1[C@H]([C@@H]([C@@H](CO)OC1I)O)O"),
-	MANNOSE("Mannose", "IC(O1)[C@@H](O)[C@@H](O)[C@H](O)[C@H]1CO"),
-	GULOSE("Gulose", "O[C@H](C(I)O1)[C@@H](O)[C@H](O)[C@@H]1CO");
+	GLUCOSE("Glucose", "OCC1OC(I)C(O)C(O)C1O"),
+	GLCNAC("N-acetylglucosamine", "O=C(NC1C(O)C(O)C(CO)OC1I)C"),
+	MANNOSE("Mannose", "OCC1OC(I)C(O)C(O)C1O"),
+	GULOSE("Gulose", "OCC1OC(I)C(O)C(O)C1O");
 	
 	private final String smiles;
 	private final String name;
