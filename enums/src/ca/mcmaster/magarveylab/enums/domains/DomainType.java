@@ -30,11 +30,12 @@ public interface DomainType {
 	 * @return		appropriate hidden Markov model cutoff 
 	 */
 	public double cutoff();
-	
+		
 	/**
 	 * Get the parent domain family of this particular domain type.
 	 * @return		the domain family (e.g., thiotemplated or sugar)
 	 */
+	
 	public DomainFamilies family();
 	
 }

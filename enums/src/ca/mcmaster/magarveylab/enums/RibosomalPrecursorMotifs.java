@@ -14,6 +14,13 @@ import java.util.ArrayList;
  */
 public enum RibosomalPrecursorMotifs {
 
+	//motifs for identifying leader peptides within the precursor
+	BotA_leader("BotA_leader_motif.txt", RibosomalClusterTypes.BOTTROMYCIN),
+	Bac_head2tail_nonleader("non_leader_bac_head-to-tail.txt", RibosomalClusterTypes.BACTERIAL_HEAD_TO_TAIL_CYCLIZED),
+	YM216391_lead("YM_lead.txt", RibosomalClusterTypes.YM216391),
+	YM216391_tail("YM_tail.txt", RibosomalClusterTypes.YM216391),
+	
+	//precursor motifs  **at the moment these are not used!!  we use hmms to ID the precursor, and motifs for cleavage
 	AIP_precursor_1("motif1_AIP_precursor.txt", RibosomalClusterTypes.AUTO_INDUCING_PEPTIDE),
 	AIP_precursor_2("motif2_AIP_precursor.txt", RibosomalClusterTypes.AUTO_INDUCING_PEPTIDE),
 	AIP_precursor_3("motif3_AIP_precursor.txt", RibosomalClusterTypes.AUTO_INDUCING_PEPTIDE),

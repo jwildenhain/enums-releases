@@ -79,7 +79,7 @@ public enum RegulatorDomains implements DomainType {
 	TarA("TarA","DNA transcription regulator - TetR","TarA.hmm",300),
 	ThnI("ThnI","Response regulator- LuxR-type","ThnI.hmm",750),
 	ThnU("ThnU","DNA transcription regulator (+) - BTAD-type (ccaR-like)","ThnU.hmm",450),
-	Tyl_type_Regulator("Tyl-type_Regulator","DNA transcription regulator (-) - GBL receptor ","Tyl-type_Regulator.hmm",110),
+	Tyl_type_Regulator("Tyl-type_Regulator","DNA transcription regulator (-) - GBL receptor ","Tyl_type_Regulator.hmm",110),
 	VmsT("VmsT","Response regulator- LuxR-type","VmsT.hmm",150),
 	
 	// round 2
@@ -248,7 +248,6 @@ public enum RegulatorDomains implements DomainType {
 	SMU_1349("SMU_1349","TetR-type regulator <br> Regulator of the TnSmu2 operon, which contains a secondary metabolite biosynthesis gene cluster of Streptococcus mutans","SMU_1349.hmm",250),
 	SngR("SngR","TetR-type regulator <br> Negative regulator of natamycin production in S. natalensis, Gamma-butyrolactone receptor protein involved in regulating natamycin biosynthesis and sporulation: (+) propanol, glucose (20g/L), potassium dihydrogen phosphate (0.05 g/L), mixture of beef extract and yeast extract (8 g/l and 2 g/l, respectively), 25 ml or 50 ml medium per flask, 250 rpm agitated culture, spore innoculum","SngR.hmm",200),
 	SocA3("SocA3","TetR-type regulator <br> Involved in regulating morphological development of Myxococcus xanthus","SocA3.hmm",350),
-	SpbR("SpbR","TetR-type regulator <br> pristinamycin prod. in S. pristinaspiralis (pleiotropic effects), Gamma-butyrolactone receptor protein involved in regulating pristinamycin biosynthesis and sporulation: (+) glycine feeding","SpbR.hmm",300),
 	SrpR("SrpR","TetR-type regulator <br> Regulator of the SrpABC efflux pump of Pseudomonas putida: SrpS","SrpR.hmm",90),
 	SrrA("SrrA","TetR-type regulator <br> Involved in the regulation of lankacidin and lankamycin biosynthesis along with SSRB, and C in S. rochei, Gamma-butyrolactone receptor protein involved in regulating lankacidin and lankamycin biosynthesis and sporulation","SrrA.hmm",250),
 	SrrB("SrrB","TetR-type regulator <br> Involved in the regulation of lankacidin and lankamycin biosynthesis along with SSRA, and C in S. rochei","SrrB.hmm",150),
@@ -324,7 +323,18 @@ public enum RegulatorDomains implements DomainType {
 	VieS("VieS","Two-component <br> Sensor histidine kinase of Vibrio cholerae: ATP, possibly amino acids/small peptides","VieS.hmm",500),
 	YcbB("YcbB","Two-component <br> Response regulator of Bacillus subtilis. Member of the two-component regulatory system GlnL/GlnK that positively regulates the expression of the glsA-glnT operon in response to glutamine. GlnL binds the promoter region of glsA-glnT in vitro: GlnK","YcbB.hmm",170),
 	YesM("YesM","Two-component <br> Sensor histidine kinase of Bacillus subtilis: Repressed by glucose. Activated by ATP","YesM.hmm",200),
-	YesN("YesN","Two-component <br> Response regulator of Bacillus subtilis: YesM","YesN.hmm",300)
+	YesN("YesN","Two-component <br> Response regulator of Bacillus subtilis: YesM","YesN.hmm",300),
+	
+	//round 4 - regulators from Yong
+	ClaR("ClaR","LysR-type <br> Positive regulator of clavulanic acid biosynthesis and neg. regulator of cephamycin C in Streptomyces clavuligerus","ClaR.hmm",120),
+	PhoPs("PhoPs","Two-component <br> Response regulator of S. coelicolor. OmpR-type. Positively regulates RED and ACT through ofsS+ropZ: PhoR, Mg2+","PhoP(s).hmm",509),
+	PhoRs("PhoRs","Two-component <br> Sensor kinase of S. coelicolor: Phosphate","PhoR(s).hmm",700),
+	SpbR("SpbR","GBL-receptor <br> Pristinamycin prod. in S. pristinaspiralis (pleiotropic effects) involved in regulating pristinamycin biosynthesis and sporulation","SpbR.hmm",200),
+	StgR("StgR","LysR-type <br> Negatively controls the expression of the redD and actII-orf4 genes encoding pathway specific 72 activators in S. coelicolor","StgR.hmm",220),
+	TylP("TylP","GBL-receptor <br> Neg. control of tylQ /tylS and tylosin production in S. fradiae","TylP.hmm",125),
+	TylQ("TylQ","SARP <br> Negative regulator of tylR and the downstream tylosin synthesis in S. fradiae","TylQ.hmm",60),
+	TylR("TylR","SARP <br> Activator of tylosin synthesis genes in S. fradiae","TylR.hmm",200),
+	TylS("TylS","SARP <br> Positive control of TylR in S. fradiae and tylosin production","TylS.hmm",300)
 	;
 	
 	private final String abbreviation;

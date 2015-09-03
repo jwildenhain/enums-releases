@@ -134,6 +134,9 @@ public enum RibosomalDomains implements DomainType {
 	YmF("YmF.hmm", "YmF", "Macrocyclase", 50.0),
 	
 	// precursor recognition element
+	//TODO: implementation for the HHpred paper predictions still needs to be added
+	//this is a placeholder for future possible implementations
+	//GenomeSearch also has some placeholder functionality for the future
 	RRE("RRE.hmm", "RRE", "RiPP precursor peptide recognition element", 0.0),
 	;
 	
