@@ -10,7 +10,7 @@ public enum ThiotemplatedClusterTypes implements ClusterType {
 	ENEDIYNE_9_MEMBERED("enediyne (9-membered)"),
 	ENEDIYNE_10_MEMBERED("enediyne (10-membered)"),
 	FUNGAL_TYPE_I("iterative type I polyketide"),
-	NULL("");
+	NULL("unknown thiotemplated cluster type");
 
 	private final String name;
 	
