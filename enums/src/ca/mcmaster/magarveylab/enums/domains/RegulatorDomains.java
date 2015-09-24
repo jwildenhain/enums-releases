@@ -368,5 +368,15 @@ public enum RegulatorDomains implements DomainType {
 	public DomainFamilies family() {
 		return DomainFamilies.REGULATOR;
 	}
+	
+	public static RegulatorDomains getRegulatorDomainFromAbbreviation(String abv){
+		for(RegulatorDomains currentEnum : RegulatorDomains.values()) {
+			if(abv.equals(currentEnum.abbreviation())) {
+				return(currentEnum);
+			}
+		}
+		System.err.println("Warning: regulator domain abbreviation " + abv + " does not exist!.");
+		return(null);
+	}
 
 }
