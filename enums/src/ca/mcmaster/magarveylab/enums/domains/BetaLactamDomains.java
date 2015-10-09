@@ -13,12 +13,7 @@ public enum BetaLactamDomains implements DomainType {
 	// other beta lactam genes 
 	CarA("Carbapenem CarA", "CarA.hmm", "CarA", 453.0d),
 	PCAH("Clavam PCAH", "PCAH.hmm", "PCAH", 423.0d),
-	SulfCAS("Sulfazecin CAS", "SulfCAS.hmm", "SulfCAS", 416.0d),
 	TblS("Tabtoxin TblS", "TblS.hmm", "TblS", 850.0d),
-	Sulfazecin_Thioesterase("Sulfazecin thioesterase", "TE_Sulfazecin.hmm", "TE", 155.0d),
-	APSK("APSK", "APSK.hmm", "APSK", 50.0d),
-	SbnB("2,3-diaminopropionate synthase", "SbnB.hmm", "SbnB", 326.0d),
-	CBS("Cystathione &beta;-synthase", "CBS.hmm", "CBS", 200.0d),
 	HAD_IIIC("Haloacid dehalogenase-like hydratase", "HAD_IIIC.hmm", "HAD<sub>IIIC</sub>", 35.0d),
 	;
 	
